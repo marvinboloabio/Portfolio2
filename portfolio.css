@@ -1,0 +1,409 @@
+    *{
+		  box-sizing:border-box;
+		  padding:0;
+		  margin:0;
+	   }
+	 body {
+		background-color:black;
+		    }
+
+	
+
+  .overlay {
+  		height: 100%;
+  		width: 0;
+  		position: fixed;
+  		z-index: 1;
+  		top: 0;
+  		left: 0;
+ 		  background-color: rgb(0,0,0);
+  		background-color: rgba(0,0,0, 1);
+  		overflow-x: hidden;
+  		transition: 0.5s;
+  		 			}
+
+	.overlay-content {
+ 		  position: relative;
+  		top: 25%;
+  		width: 100%;
+  		text-align: center;
+  		margin-top: 5px;
+			}
+
+	.overlay a {
+  		padding: 8px;
+  		text-decoration: none;
+  		font-size: 36px;
+  		color: #818181;
+  		display: block;
+  		transition: 0.3s;
+  		font-family: 'Poppins', sans-serif;
+      font-weight:bold;
+			  }
+
+	.overlay a:hover, .overlay a:focus {
+  		color: #f1f1f1;
+			}
+
+	.overlay .closebtn {
+  		position: absolute;
+  		top: 20px;
+ 		  right: 45px;
+  		font-size: 60px;
+				}
+  .menuicon{
+		  font-size:30px;
+		  cursor:pointer;
+		  color:white;
+		  float:right;
+		  margin-right:4%;
+		  margin-top:2%;
+      z-index:1;
+        	}
+    
+    .namelogo{
+    	color:white;
+    	float:left;
+    	font-weight:bold;
+    	margin-top:2.2%;
+    	margin-left:4%;
+    	font-size:24px;
+    	font-family: 'Poppins', sans-serif;
+      z-index:1;
+    }
+    
+    .head{
+    	 
+    	width:100%;
+    	position:fixed;
+    	 
+         }
+
+    .aboutme-text{
+      width:100%;
+      text-align:center;
+      color:white;
+      float:left;
+      margin-top:10%;
+      font-family: 'Poppins', sans-serif;  
+      font-size:45px;
+
+    }
+
+    .about-description{
+      color:white;
+      width:100%;
+      text-align:center;
+      color:white;
+      margin-top:0.5%;
+      float:left;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size:22px;
+    }
+    .text-me{
+      color:#e01b53;
+    }
+
+    .portfolio-container-1{
+      float:left;
+      width:100%;
+       
+      height:555px;
+      margin-top:4%;
+      }
+
+    .first-portfolio-image{
+      float:left;
+      
+      width:40%;
+      height:350px;
+      position:absolute;
+      left:11%;
+      z-index:-1;
+      margin-top:7%;
+
+    }
+
+    .porfolio-image-1{
+      float:left;
+      width:100%;
+      height:350px;
+
+    }
+
+    .first-portfolio-description{
+       width:40%;
+      
+       height:320px;
+       position:relative;
+       left:48%;
+       top:27%;
+       background-color:#080808;
+       z-index:-1;
+
+    }
+   
+
+     .portfolio-container-2{
+      float:left;
+      width:100%;
+      
+      height:555px;
+      margin-top:0;
+
+
+    }
+
+    .second-portfolio-image{
+      float:left;
+      width:40%;
+      height:350px;
+      position:absolute;
+      left:11%;
+      z-index:-1;
+      margin-top:7%;
+        }
+
+
+      .porfolio-image-2{
+      float:left;
+      width:100%;
+      height:350px;
+
+    }
+
+     .second-portfolio-description{
+       width:40%;
+        
+       height:320px;
+       position:relative;
+       left:48%;
+       top:27%;
+       background-color:#080808;
+       z-index:-1;
+          }
+
+   
+
+       .portfolio-container-3{
+      float:left;
+      width:100%;
+      
+      height:555px;
+      margin-top:0;
+
+
+    }
+
+    .third-portfolio-image{
+      float:left;
+      width:40%;
+      height:350px;
+      position:absolute;
+      left:11%;
+      z-index:-1;
+      margin-top:7%;
+    
+      
+        }
+
+
+      .porfolio-image-3{
+      float:left;
+      width:100%;
+      height:350px;
+
+    }
+
+     .third-portfolio-description{
+       width:40%;
+       
+       height:320px;
+       position:relative;
+       left:48%;
+       top:27%;
+       background-color:#080808;
+       z-index:-1;
+          }
+
+    .footer {
+    width:100%;
+    height:70px;
+    background-color:#1b1b1c;
+    float:left;
+
+           }
+
+    .description-title{
+      color:#e01b53;
+      font-family: 'Poppins', sans-serif;
+      width:100%;
+      text-align:center;
+      margin-top:6%;
+      float:left;
+
+    }
+
+    .description-p{
+      color:white;
+      font-family: 'Source Sans Pro', sans-serif;
+      padding:5px 40px;
+      text-align:justify;
+      margin-top:6%;
+      float:left;
+
+    }
+
+    .description-button{
+      color:#e01b53;
+      padding: 18px 32px;
+      border-style:solid;
+      border-color:#e01b53;
+      background-color:#080808;
+      font-size:16px;
+      margin-top:6%;
+      margin-left:37%;
+      float:left;
+
+
+    }
+   
+
+
+
+     @media screen and (max-width : 500px) {
+    .first-portfolio-image{
+      float:left;
+      width:90%;
+      height:350px;
+      position:absolute;
+      left:5%;
+     } 
+
+    
+
+    .porfolio-image-1{
+      float:left;
+      width:100%;
+      height:350px;
+
+    }
+
+    .first-portfolio-description{
+       width:90%;
+       
+       height:320px;
+       position:relative;
+       left:5%;
+       top:50%;
+       background-color:#080808;
+
+    }
+     .portfolio-container-1{
+      float:left;
+      width:100%;
+       
+      height:750px;
+      margin-top:4%;
+      }
+       .portfolio-container-2{
+      float:left;
+      width:100%;
+       
+      height:750px;
+      margin-top:4%;
+      }
+
+       .second-portfolio-image{
+      float:left;
+      width:90%;
+      height:350px;
+      position:absolute;
+      left:5%;
+      z-index:-1;
+      margin-top:7%;
+        }
+
+
+      .porfolio-image-2{
+      float:left;
+      width:100%;
+      height:350px;
+
+    }
+
+     .second-portfolio-description{
+        width:90%;
+     
+       height:320px;
+       position:relative;
+       left:5%;
+       top:50%;
+       background-color:#080808;
+       z-index:-1;
+          }
+   
+    .portfolio-container-3{
+      float:left;
+      width:100%;
+       
+      height:750px;
+      margin-top:4%;
+      }
+
+       .third-portfolio-image{
+      float:left;
+      width:90%;
+      height:350px;
+      position:absolute;
+      left:5%;
+      z-index:-1;
+      margin-top:7%;
+        }
+
+
+      .porfolio-image-3{
+      float:left;
+      width:100%;
+      height:350px;
+
+    }
+
+     .third-portfolio-description{
+        width:90%;
+        
+        height:320px;
+        position:relative;
+        left:5%;
+        top:50%;
+        background-color:#080808;
+        z-index:-1;
+          }
+
+     .footerh2{
+        color:white;
+        width:100%;
+        text-align:center;
+        margin-top:4%;
+        float:left;
+        font-family: 'Poppins', sans-serif;
+        font-size:16px;
+             }
+
+      .description-button{
+      color:#e01b53;
+      padding: 18px 32px;
+      border-style:solid;
+      border-color:#e01b53;
+      background-color:#080808;
+      font-size:16px;
+      margin-top:6%;
+      margin-left:34.5%;
+      float:left;
+
+
+    }
+   
+     
+
+  }

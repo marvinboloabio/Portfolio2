@@ -1,0 +1,370 @@
+   *{
+		  box-sizing:border-box;
+		  padding:0;
+		  margin:0;
+	   }
+	 body {
+		background-color:black;
+		    }
+
+	
+
+  .overlay {
+  		height: 100%;
+  		width: 0;
+  		position: fixed;
+  		z-index: 1;
+  		top: 0;
+  		left: 0;
+ 		  background-color: rgb(0,0,0);
+  		background-color: rgba(0,0,0, 1);
+  		overflow-x: hidden;
+  		transition: 0.5s;
+  		 			}
+
+	.overlay-content {
+ 		  position: relative;
+  		top: 25%;
+  		width: 100%;
+  		text-align: center;
+  		margin-top: 5px;
+			}
+
+	.overlay a {
+  		padding: 8px;
+  		text-decoration: none;
+  		font-size: 36px;
+  		color: #818181;
+  		display: block;
+  		transition: 0.3s;
+  		font-family: 'Poppins', sans-serif;
+      font-weight:bold;
+			  }
+
+	.overlay a:hover, .overlay a:focus {
+  		color: #f1f1f1;
+			}
+
+	.overlay .closebtn {
+  		position: absolute;
+  		top: 20px;
+ 		  right: 45px;
+  		font-size: 60px;
+				}
+  .menuicon{
+		  font-size:30px;
+		  cursor:pointer;
+		  color:white;
+		  float:right;
+		  margin-right:4%;
+		  margin-top:2%;
+      z-index:1;
+        	}
+    
+    .namelogo{
+    	color:white;
+    	float:left;
+    	font-weight:bold;
+    	margin-top:2.2%;
+    	margin-left:4%;
+    	font-size:24px;
+    	font-family: 'Poppins', sans-serif;
+      z-index:1;
+    }
+    
+    .head{
+    	 
+    	width:100%;
+    	position:fixed;
+    	 
+         }
+
+    .aboutme-text{
+      width:100%;
+      text-align:center;
+      color:white;
+      float:left;
+      margin-top:10%;
+      font-family: 'Poppins', sans-serif;  
+      font-size:45px;
+
+    }
+
+    .about-description{
+      color:white;
+      width:100%;
+      text-align:center;
+      color:white;
+      margin-top:0.5%;
+      float:left;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size:22px;
+    }
+    .text-me{
+      color:#e01b53;
+    }
+
+    
+    .form-container{
+      float:left;
+      width:100%;
+      height:600px;
+      display:inline-flex;
+      margin-top:6%
+      
+    }
+
+
+
+    .more-info{
+      float:left;
+      width: 35%;
+      height:500px;
+      border-radius:5%;
+      margin-top:2%;
+      margin-left:6%;
+      background-image:url(dark.jpg); 
+      background-repeat:no-repeat;
+      background-size:cover;
+      object-fit: fill;
+      background-color:black;
+      background-blend-mode:screen; 
+
+
+    }
+
+
+
+     
+
+    .myform{
+      width:45%;
+      height:500px;
+      float:left;
+      margin-left:8%;
+      margin-top:2%;
+      background-color:black;
+
+    }
+    .message-h2{
+      color:white;
+      width:100%;
+      text-align:center;
+      margin-top:5%;
+      float:left;
+      font-family: 'Poppins', sans-serif;  
+
+    }
+    .container-for-textfield-1-2{
+      display:inline-flex;
+      margin-top:4%;width:100%;
+       float:left;
+    }
+
+    .text-field1{
+      width:45%;
+      height:50px;
+      margin-left:3%;
+      background-color:#080808;
+      border:none;
+      color:white;
+      font-size:16px;
+
+
+
+    }
+
+    .text-field2{
+      width:45%;
+      margin-left:3%;
+      background-color:#080808;
+      border:none;
+      color:white;
+      font-size:16px;
+        
+
+    }
+
+    .container-for-textfield-3{
+      width:100%;
+      margin-top:6%;
+      float:left;
+
+    }
+     .text-field3{
+      width:92%;
+      margin-left:3%;
+      height:50px;
+        background-color:#080808;
+        border:none;
+        color:white;
+        font-size:16px;
+
+      }
+
+      .container-for-textfield-4 {
+        width:100%;
+        margin-top:6%;
+         float:left;
+      }  
+
+       .text-field4{
+          width:92%;
+          margin-left:3%;
+          height:100px;
+          background-color:#080808;
+          color:white;
+          border:none;
+          font-size:16px;
+           font-family: 'Poppins', sans-serif;
+
+                   }
+     .btn{
+      color:#e01b53;
+      padding: 18px 32px;
+      border-style:solid;
+      border-color:#e01b53;
+      background-color:#080808;
+      font-size:16px;
+      position:relative;
+      margin-top:20%;
+      left:7%;
+      float:left;
+      font-size:16px;
+      font-family: 'Poppins', sans-serif;
+      font-weight:bold;
+      }
+      
+      .icons-container{
+        width:100%;
+        height:500px;
+        
+        display:block;
+
+
+      }
+      #icons{
+        font-size:30px;
+        color:white;
+        margin-top:8px;
+        margin-left:45px;
+         }
+        
+        
+
+     
+      .icons-box{
+       display:inline-flex;
+       margin-top:12.5%;
+       width:100%;
+       
+       height:50px;
+      }
+
+      .para-i{
+        margin-left:60px;
+        margin-top:8px;
+        font-size:20px;
+        font-weight:1000;
+          font-family: 'Poppins', sans-serif;
+          color:white;
+
+
+       
+      }
+
+      
+       
+      
+
+    
+
+       .footer {
+    width:100%;
+    height:70px;
+    background-color:#1b1b1c;
+    float:left;
+
+           }
+
+     @media screen and (max-width : 500px) {
+
+       .more-info{
+      float:left;
+      width: 90%;
+      height:500px;
+      border-radius:5%;
+      margin-top:2%;
+      margin-left:5%;
+      background-image:url(dark.jpg); 
+      background-repeat:no-repeat;
+      background-size:cover;
+      object-fit: fill;
+      background-color:black;
+      background-blend-mode:screen; 
+
+
+    }
+
+
+
+     
+
+    .myform{
+      width:100%;
+      height:500px;
+      float:left;
+      margin-left:0%;
+      margin-top:2%;
+      background-color:black;
+
+    }
+       .form-container{
+      float:left;
+      width:100%;
+      height:600px;
+      display:inline-table;
+      margin-top:6%
+      
+    }
+     .footer {
+    width:100%;
+    height:70px;
+    background-color:#1b1b1c;
+    float:left;
+    margin-top:8%;
+
+           }
+     .para-i{
+        margin-left:40px;
+        margin-top:8px;
+        font-size:20px;
+        font-weight:1000;
+        font-family: 'Poppins', sans-serif;
+        color:white;
+
+
+       
+      }
+     .btn{
+      color:#e01b53;
+      padding: 18px 32px;
+      border-style:solid;
+      border-color:#e01b53;
+      background-color:#080808;
+      font-size:16px;
+      position:relative;
+      margin-top:20%;
+      left:10%;
+      float:left;
+      font-size:16px;
+      font-family: 'Poppins', sans-serif;
+      font-weight:bold;
+      }
+
+     }
+
+
+
+
+   
